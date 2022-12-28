@@ -1,9 +1,7 @@
 from typing import Optional
 import streamlit as st
 import torch
-from diffusers import (
-    StableDiffusionPipeline,
-)
+from diffusers import (StableDiffusionPipeline,)
 from PIL import Image
 
 DEFAULT_PROMPT = "the fly sat on the jam, that's the whole poem"
@@ -94,6 +92,4 @@ def main():
 
 
 if __name__ == "__main__":
-
-
     main()
