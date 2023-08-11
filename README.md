@@ -20,7 +20,7 @@ huggingface-cli login
 ```
 and insert your token.
 
-You are ready to run application:
+## You are ready to run application:
 ```
 streamlit run src/main.py
 ```
